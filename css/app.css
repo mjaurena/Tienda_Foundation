@@ -1,0 +1,41 @@
+.size-i{
+  font-size: 5vh;
+}
+.size-c{
+  font-size: 4vh;
+}
+.fotos{
+  text-align: center;
+}
+.callout h5,h4{
+  font-size: 2vw;
+}
+.callout h6{
+  font-size: 1.5vw;
+}
+p a{
+  font-size: 1.5vw;
+}
+form{
+  font-size: 1.5vw;
+}
+.help-text{
+  font-size: 1.2vw;
+}
+#categoria{
+  font-size: 1.5vw;
+}
+.set label{
+  font-size: 1.2vw;
+}
+.set input{
+  width: 1.5vw;
+}
+.switch-col{
+  text-align: center;
+  color: black;
+  font-size: 1.2vw;
+}
+.button-col{
+  text-align: center;
+}
