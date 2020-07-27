@@ -2,183 +2,182 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Ejemplo Foundation</title>
-    <link rel="stylesheet" href="css/foundation.min.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/app.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
   </head>
   <body>
     <div class="row">
-      <div class="medium-3 columns"><h2>e-Store</h2></div>
-      <div class="medium-5 medium-offset-4 columns">
-        <div class="row">
-          <ul class="menu align-right">
-            <li><a href="index.html">Ingresa</a></li>
-            <li><a href="#registro">Regístrate</a></li>
-            <li><a href="#ayuda">Ayuda</a></li>
-            <li><a href="#mapa_sitio">Mapa del sitio</a></li>
-          </ul>
-        </div>
-        <div class="row">
-          <div class="columns medium-offset-3">
-            <ul class="menu align-right">
-              <li><a href="#facebook"><i class="fi-social-facebook size-i"></i></a></li>
-              <li><a href="#instagram"><i class="fi-social-instagram size-i"></i></a></li>
-              <li><a href="#youtube"><i class="fi-social-youtube size-i"></i></a></li>
-              <li><a href="#pinterest"><i class="fi-social-pinterest size-i"></i></a></li>
-              <li><a href="#twitter"><i class="fi-social-twitter size-i"></i></a></li>
-            </ul>
+      <div class="small-12 columns small-order-1">
+        <div class="row align-center">
+          <div class="medium-3 columns"><h2>e-Store</h2></div>
+          <div class="medium-6 columns medium-offset-3">
+            <div class="column row">
+              <div class="menu align-right hide-for-small-only">
+                <li><a href="index.html">Ingresa</a></li>
+                <li><a href="#registro">Regístrate</a></li>
+                <li><a href="#ayuda">Ayuda</a></li>
+                <li><a href="#mapa_sitio">Mapa del sitio</a></li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="medium-9 columns medium-offset-3 hide-for-small-only show-for-landscape">
+                <ul class="menu align-right">
+                  <li><a href="#facebook"><i class="fi-social-facebook size-i"></i></a></li>
+                  <li><a href="#instagram"><i class="fi-social-instagram size-i"></i></a></li>
+                  <li><a href="#youtube"><i class="fi-social-youtube size-i"></i></a></li>
+                  <li><a href="#pinterest"><i class="fi-social-pinterest size-i"></i></a></li>
+                  <li><a href="#twitter"><i class="fi-social-twitter size-i"></i></a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="expanded button-group">
-        <a href="#hogar" class="button">Hogar</a>
-        <a href="#salud"class="button">Salud</a>
-        <a href="#deporte"class="button">Deporte</a>
-        <a href="#tecnologia"class="button">Tecnología</a>
-        <a href="#accesorios"class="button">Accesorios</a>
-        <a href="#ropa"class="button">Ropa</a>
-        <a href="#mantenimiento"class="button">Mantenimiento</a>
-        <a href="#carrito"class="secondary button"><span>Carrito</span><i class="fi-shopping-cart size-c"></i></a>
+      <div class="small-12 columns small-order-4 medium-order-2">
+        <div class="row column">
+          <div class="button-group expanded stacked-for-small">
+            <a href="#hogar" class="button">Hogar</a>
+            <a href="#salud"class="button">Salud</a>
+            <a href="#deporte"class="button">Deporte</a>
+            <a href="#tecnologia"class="button">Tecnología</a>
+            <a href="#accesorios"class="button">Accesorios</a>
+            <a href="#ropa"class="button">Ropa</a>
+            <a href="#mantenimiento"class="button">Mantenimiento</a>
+            <a href="#carrito"class="secondary button"><span>Carrito</span><i class="fi-shopping-cart size-c"></i></a>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <nav aria-label="You are here:" role="navigation">
-        <ul class="breadcrumbs">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#hogar">Hogar</a></li>
-          <li><a href="#varios">Varios</a></li>
-          <li class="disabled">Decoración</li>
-          <li></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="row">
-      <div class="small-3 columns">
-        <div class="callout primary"><h5>Búsqueda<br/>Avanzada</h5>
-          <form>
-            <div class="row">
-              <div class="columns"
-                <label>Por nombre:<input type="text"/></label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="columns"
-                <label>Por referencia:
-                  <input type="text" aria-describedby="numero-producto"/></label>
-                  <p class="help-text" id="numero-producto">Número único del producto</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="columns"
-                <label>Por categoría:
-                  <select name="categoria" id="categoria">
-                    <option>Hogar</option>
-                    <option>Salud</option>
-                    <option>Deporte</option>
-                    <option>Tecnología</option>
-                    <option>Accesorios</option>
-                    <option>Ropa</option>
-                    <option>Mantenimiento</option>
-                  </select>
-                </label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="columns set">
-                <fieldset>
-                  <legend>Tipo de producto</legend>
-                  <input id="nuevo" type="checkbox"><label for="nuevo">Nuevo</label>
-                  <input id="usado" type="checkbox"><label for="nuevo">Usado</label
-                </fieldset>
-              </div>
-            </div>
-            <div class="row">
-              <div class="columns set">
-                <fieldset>
-                  <legend>Tipo de precio</legend>
-                  <input id="pleno" type="radio" name="color" value="azul"><label for="pleno">Pleno</label>
-                  <input id="oferta" type="radio" name="color" value="rojo"><label for="oferta">En oferta</label
-                </fieldset>
-              </div>
-            </div>
-            <div class="row">
-              <div class="columns switch-col">
-                <p>¿Buscar productos agotados?</p>
-                <div class="switch small">
-                  <input class="switch-input" type="checkbox" name="productos-agotados" id="productos-agotados">
-                  <label class="switch-paddle" for="productos-agotados">
-                    <span class="switch-active" aria-hidden="true">Sí</span>
-                    <span class="switch-inactive" aria-hidden="true">No</span>
+      <div class="small-12 columns small-order-2">
+        <div class="row column">
+          <ul class="breadcrumbs" aria-hidden="true">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#hogar">Hogar</a></li>
+            <li><a href="#varios">Varios</a></li>
+            <li class="disabled">Decoración</li>
+          </ul>
+        </div>
+      </div>
+      <div class="small-12 columns small-order-3">
+        <div class="row large-uncollapse">
+          <div class="large-3 medium-4 columns show-for-medium">
+            <div class="callout primary"><h5>Búsqueda<br/>Avanzada</h5>
+            <p class="show-for-sr">"A continuación hay un formulario para hacer búsquedas avanzadas"</p>
+              <form>
+                <div class="row column">
+                  <label>Por nombre:<input type="text"/></label>
+                </div>
+                <div class="row column">
+                  <label>
+                    Por referencia:
+                    <input type="text" aria-describedby="numero-producto"/>
                   </label>
+                  <p class="help-text" id="numero-producto">Número único del producto</p>
+                </div>
+                <div class="row column">
+                  <label>Por categoría:
+                    <select name="categoria" id="categoria">
+                      <option>Hogar</option>
+                      <option>Salud</option>
+                      <option>Deporte</option>
+                      <option>Tecnología</option>
+                      <option>Accesorios</option>
+                      <option>Ropa</option>
+                      <option>Mantenimiento</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="row column set">
+                  <fieldset>
+                    <legend>Tipo de producto</legend>
+                    <input id="nuevo" type="checkbox"><label for="nuevo">Nuevo</label>
+                    <input id="usado" type="checkbox"><label for="usado">Usado</label>
+                  </fieldset>
+                </div>
+                <div class="row column set">
+                  <fieldset>
+                    <legend>Tipo de precio</legend>
+                    <input id="pleno" type="radio" name="pleno-oferta" value="azul"><label for="pleno">Pleno</label>
+                    <input id="oferta" type="radio" name="pleno-oferta" value="rojo"><label for="oferta">En oferta</label>
+                  </fieldset>
+                </div>
+                <div class="row column switch-col">
+                  <label>¿Buscar productos agotados?</label>
+                  <div class="switch medium">
+                    <input class="switch-input" type="checkbox" name="productos-agotados" id="productos-agotados">
+                    <label class="switch-paddle" for="productos-agotados">
+                      <span class="switch-active" aria-hidden="true">Sí</span>
+                      <span class="switch-inactive" aria-hidden="true">No</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="row column button-col">
+                    <hr>
+                  <button type="submit" class="button">Buscar   <i class="fi-magnifying-glass"></i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="large-9 medium-8 columns">
+            <div class="callout primary">
+              <h4>Decoración</h4>
+              <hr>
+            <div class="row large-uncollapse">
+              <div class="large-4 small-12 medium-6 columns">
+                <div class="callout secondary text-center">
+                  <img src="decoracion-1.png" alt="deco-1" title="deco-1" class="thumbnail"/>
+                  <p><h6>Decoración 1</h6></p>
+                  <p><a href="#decoracion-1">Ver más   <i class="fi-plus"></i></a></p>
+                </div>
+              </div>
+              <div class="large-4 small-12 medium-6 columns">
+                <div class="callout secondary text-center">
+                  <img src="decoracion-2.png" alt="deco-2" title="deco-2" class="thumbnail"/>
+                  <p><h6>Decoración 2</h6></p>
+                  <p><a href="#decoracion-2">Ver más   <i class="fi-plus"></i></a></p>
+                </div>
+              </div>
+              <div class="large-4 small-12 medium-6 columns">
+                <div class="callout secondary text-center">
+                  <img src="decoracion-3.png" alt="deco-3" title="deco-3" class="thumbnail"/>
+                  <p><h6>Decoración 3</h6></p>
+                  <p><a href="#decoracion-3">Ver más   <i class="fi-plus"></i></a></p>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="columns button-col">
-                <button type="submit" class="button">Buscar   <i class="fi-magnifying-glass"></i></button>
+            <div class="row large-uncollapse">
+              <div class="large-4 small-12 medium-6 columns">
+                <div class="callout secondary text-center">
+                  <img src="decoracion-4.png" alt="deco-4" title="deco-4" class="thumbnail"/>
+                  <p><h6>Decoración 4</h6></p>
+                  <p><a href="#decoracion-4">Ver más   <i class="fi-plus"></i></a></p>
+                </div>
               </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="small-9 columns">
-        <div class="callout primary"><h4>Decoración</h4></div>
-        <div class="row">
-          <div class="small-4 columns">
-            <div class="callout primary fotos">
-              <img src="decoracion-1.png" alt="deco-1" title="deco-1"/>
-              <p><h6>Decoración 1</h6></p>
-              <p><a href="#decoracion-1">Ver más   <i class="fi-plus"></i></a></p>
-            </div>
-          </div>
-          <div class="small-4 columns">
-            <div class="callout primary fotos">
-              <img src="decoracion-2.png" alt="deco-2" title="deco-2"/>
-              <p><h6>Decoración 2</h6></p>
-              <p><a href="#decoracion-2">Ver más   <i class="fi-plus"></i></a></p>
-            </div>
-          </div>
-          <div class="small-4 columns">
-            <div class="callout primary fotos">
-              <img src="decoracion-3.png" alt="deco-3" title="deco-3"/>
-              <p><h6>Decoración 3</h6></p>
-              <p><a href="#decoracion-3">Ver más   <i class="fi-plus"></i></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="small-4 columns">
-            <div class="callout primary fotos">
-              <img src="decoracion-4.png" alt="deco-4" title="deco-4"/>
-              <p><h6>Decoración 4</h6></p>
-              <p><a href="#decoracion-4">Ver más   <i class="fi-plus"></i></a></p>
-            </div>
-          </div>
-          <div class="small-4 columns">
-            <div class="callout primary fotos">
-              <img src="decoracion-5.png" alt="deco-5" title="deco-5"/>
-              <p><h6>Decoración 5</h6></p>
-              <p><a href="#decoracion-5">Ver más   <i class="fi-plus"></i></a></p>
-            </div>
-          </div>
-          <div class="small-4 columns">
-            <div class="callout primary fotos">
-              <img src="decoracion-6.png" alt="deco-6" title="deco-6"/>
-              <p><h6>Decoración 6</h6></p>
-              <p><a href="#decoracion-6">Ver más   <i class="fi-plus"></i></a></p>
+              <div class="large-4 small-12 medium-6 columns">
+                <div class="callout secondary text-center">
+                  <img src="decoracion-5.png" alt="deco-5" title="deco-5" class="thumbnail"/>
+                  <p><h6>Decoración 5</h6></p>
+                  <p><a href="#decoracion-5">Ver más   <i class="fi-plus"></i></a></p>
+                </div>
+              </div>
+              <div class="large-4 small-12 medium-6 columns">
+                <div class="callout secondary text-center">
+                  <img src="decoracion-6.png" alt="deco-6" title="deco-6" class="thumbnail"/>
+                  <p><h6>Decoración 6</h6></p>
+                  <p><a href="#decoracion-6">Ver más   <i class="fi-plus"></i></a></p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
 </html>
